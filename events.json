@@ -2,8 +2,8 @@
   {
     "id": "evento_skywars_2026",
     "titulo": "🏆 Gran Torneo de Skywars",
+    "creador": "Staff TeaProductions",
     "estado": "EN CURSO",
-    "color_estado": "#2ecc71",
     "progreso": 0.1,
     "descripcion": "¡Participa en el torneo oficial! Servidor optimizado con mods de optimización y texturas custom incorporadas.",
     "imagen_url": "https://raw.githubusercontent.com/thaielvb-alt/TeaLauncherEvents/main/imagenes/skywars/skywars.png",
@@ -16,6 +16,23 @@
     
     "mods_url": "https://github.com/tu-usuario/tu-repo/raw/main/archivos/mods.zip",
     "config_url": "https://github.com/tu-usuario/tu-repo/raw/main/archivos/config.zip",
-    "texturas_url": ""
+    "texturas_url": "",
+    "mostrar_boton_jugar": true
+  },
+  {
+    "id": "evento_mantenimiento_lobby",
+    "titulo": "🚧 Ajustes del Servidor Principal",
+    "creador": "Admin_Tea",
+    "estado": "MANTENIMIENTO",
+    "progreso": 0.20,
+    "descripcion": "Estamos migrando las bases de datos de perfiles y optimizando los chunks para mitigar el retraso. El acceso público directo desde el launcher está deshabilitado temporalmente.",
+    "imagen_url": "",
+    
+    "ip": "play.mi-servidor.com",
+    "puerto": 25565,
+    "version_mc": "1.21",
+    "tipo_loader": "vanilla",
+    "mostrar_boton_jugar": false
   }
 ]
+
